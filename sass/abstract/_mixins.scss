@@ -1,0 +1,5 @@
+
+@mixin hoverVal($bgcolor,$fontColor:$light-color){
+    background-color:$bgcolor;
+    color:$fontColor;
+}

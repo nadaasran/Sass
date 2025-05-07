@@ -1,0 +1,32 @@
+.header {
+    position: sticky;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+    background-color: $light-color;
+    
+    div{
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        img {
+
+            width:50%;
+        }
+    }
+    &__nav{
+        width: 50%;
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                // margin-left: 20px;
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

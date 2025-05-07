@@ -1,0 +1,37 @@
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    font-family: $main-font;
+    font-size: 12px;
+   
+    &--dark{
+        border: 2px solid $dark-color;
+        color:$dark-color;
+        padding: 10px 20px;
+
+        &:hover{
+            @include hoverVal($dark-color);
+        }
+
+    }
+    &--primary {
+
+        color:$secondry-color;
+        &:hover{
+            @include hoverVal($primary-color);
+            
+        }
+       
+    }
+
+    &--secondry {
+        color: $light-color;
+        background-color: $secondry-color;
+      
+    }
+
+}

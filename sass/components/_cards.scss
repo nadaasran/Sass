@@ -1,0 +1,29 @@
+.card-icon{
+    display: flex;
+    &__img{
+        margin-right: 35px;
+    }
+    &__text{
+
+        h4 {
+            margin-bottom: 15px;
+            a {
+                text-decoration:none;
+                color:$secondry-color;
+                text-transform: capitalize;
+                font-size: 20px;
+            }
+        }
+       
+        p{
+            color:$gray-color;
+        }
+
+
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}

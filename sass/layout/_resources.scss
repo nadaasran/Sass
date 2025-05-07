@@ -1,0 +1,69 @@
+.resources {
+    padding: 2rem;
+    margin-bottom: 50px;
+    background-color: $light-gray;
+    border-radius: 8px;
+    width: 100%;
+    .container {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+
+    .section-title {
+        text-align: left;
+        margin-bottom: 1.5rem;
+
+        &__header {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1rem;
+            color:$gray-color;
+        }
+    }
+
+    .card {
+        background: $light-color;
+        // overflow: hidden;
+        box-shadow: 0 4px 8px rgba(33, 33, 33, 0.1);
+        
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px $gray-color;
+        }
+
+        &__img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        &__title {
+            padding: 1rem;
+            text-align: center;
+
+            h3 {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: $dark-color;
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $gray-color;
+            }
+        }
+    }
+    &__btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        }
+}
+
